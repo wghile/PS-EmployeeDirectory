@@ -1,12 +1,14 @@
 import Header from "./Header"
 import EmployeeInfo from "./EmployeeInfo"
 
-export default () => {
+export default ({employee}) => {
+
+
 
     return (
         <div className="EP">
             <Header title = 'Employee'/>
-            <EmployeeInfo />
+            <EmployeeInfo employee = {employee}/>
         </div>
     )
 }

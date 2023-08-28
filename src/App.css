@@ -114,17 +114,30 @@
   padding: 20px;
 }
 .EI > table > tbody > tr:first-child > td{
-  padding: 60px 20px;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  border: transparent;
 }
-.EI > .employee{
+img{
+  grid-column: 1/2;
+  border-radius: 50%;
+  border: 2px solid orange;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+    left: 10px;
+}
+text{
+  grid-column: 2/3;
+  font-size: 17px;
+  line-height: 0.25in;
+  position: absolute;
+    left: 140px;
+}
+.EI > .employee {
   color: grey;
 }
-/* .EI > .ELI {
-  border: 10px blue solid;
-  margin: 1.5px;
-  height: 14%;
-  width: 99%;
-  position: relative;
-} */
 
 

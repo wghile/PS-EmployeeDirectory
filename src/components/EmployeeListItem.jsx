@@ -1,14 +1,14 @@
-export default (props) => {
+export default ({img, name, role, handleUserClick}) => {
 
     return (
-        <div className="ELI">
-            <img src={props.img}/>
+        <div onClick={() => {handleUserClick({name: name, role: role, img: img})}} className="ELI">
+            <img src={img}/>
             <ul>
                 <li>
-                    {props.name}    {/*reading the data provided by EL */}
+                    {name}    {/*reading the data provided by EL */}
                 </li>
                 <li>
-                    {props.role}
+                    {role}
                 </li>
             </ul>
         </div>

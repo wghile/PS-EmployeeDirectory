@@ -9,16 +9,16 @@ import mrJ from '../images/mrJ.png'
 import schemmenti from '../images/schemmenti.png'
 import photo from '../images/photoplaceholder.png'
 
-export default (props) => {
+export default ({employee}) => {
 
     const [officeNum, setOfficeNum] = useState('XXX-YYY-ZZZZ')
     const [mobileNum, setMobileNum] = useState('XXX-YYY-ZZZZ')
     const [SMS, setSMS] = useState('XXX-YYY-ZZZZ')
     const [email, setEmail] = useState('abcdef@abbott.edu')
 
-    const [pic, setPic] = useState(photo)
-    const [name, setName] = useState('Name')
-    const [role, setRole] = useState('Job Title')
+    // const [pic, setPic] = useState(photo)
+    // const [name, setName] = useState('Name')
+    // const [role, setRole] = useState('Job Title')
 
     return (
         <div className="EI">
@@ -26,7 +26,12 @@ export default (props) => {
                 <tbody>
                     <tr>
                         <td>
-                            <EmployeeListItem img = {pic} name = {name} role = {role}/> 
+                                <img src = {employee.img}/>
+                                <text>
+                                  <strong>{employee.name}</strong>
+                                  <br />
+                                    {employee.role}  
+                                </text>
                         </td>
                     </tr>
                     <tr>
