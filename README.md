@@ -1,8 +1,24 @@
-# React + Vite
+## About
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Employee Directory application built using React + Vite inspired by Abbott Elementary TV show.
 
-Currently, two official plugins are available:
+## Work in Progress
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features I'd like to add:
+
+- Data for employees (i.e. email, office and phone number)
+- More employees
+- Organize employees by alphabetical order
+- Functionality to searchbar so that when user types in name it filters through employee data
+- Overall design of app
+
+## Installation Instructions
+
+1. clone repository
+2. Navigate to folder and open on local machine
+   - cd into folder
+3. Create new React project: `npm create vite@latest .`
+   - Select framework: React
+   - Select output: JavaScript
+4. Install: `npm install`
+5. Start server: `npm run dev`

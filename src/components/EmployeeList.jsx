@@ -22,7 +22,7 @@ export default ({handleUserClick}) => {
     return (
         <div className="EL">
             {employees.map((item) => {
-                return <EmployeeListItem handleUserClick = {handleUserClick}name = {item.name} role = {item.role} img = {item.img}/>
+                return <EmployeeListItem handleUserClick = {handleUserClick} name = {item.name} role = {item.role} img = {item.img}/>
             })}
 
             {/* <EmployeeListItem img = {ava} name = 'Ava Coleman' role = 'Principal of Abbott Elementary' /> here EL provides the data by writing 'name =' to the ELI component */}
