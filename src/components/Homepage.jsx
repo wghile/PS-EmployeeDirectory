@@ -1,6 +1,6 @@
 import EmployeeList from "./EmployeeList"
 import Header from "./Header"
-import Searchbar from "./Searchbar"
+import Searchbar from "./SearchBar"
 
 export default ({handleUserClick}) => {
 
