@@ -1,7 +1,7 @@
 export default ({setDisplay, employees}) => {
 
     const handleChange = (evt) => {
-        console.log(evt.target.value)
+        // console.log(evt.target.value)
         if(evt.target.value === ''){
             console.log(employees)
             setDisplay(employees)

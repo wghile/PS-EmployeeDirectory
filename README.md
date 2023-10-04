@@ -8,7 +8,6 @@ Features I'd like to add:
 
 - Data for employees (i.e. email, office and phone number)
 - More employees
-- Organize employees by alphabetical order
 - Overall design of app
 
 ## Installation Instructions
@@ -21,3 +20,7 @@ Features I'd like to add:
    - Select output: JavaScript
 4. Install: `npm install`
 5. Start server: `npm run dev`
+
+# Resources
+
+-Sorting array alphabetically: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
