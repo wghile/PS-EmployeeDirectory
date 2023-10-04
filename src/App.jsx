@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Homepage from './components/Homepage'
 import EmployeePage from './components/EmployeePage'
-import photo from './images/photoplaceholder.png'
+import photo from '../public/images/photoplaceholder.png'
 
 function App() {
   

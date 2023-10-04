@@ -1,13 +1,5 @@
 import EmployeeListItem from "./EmployeeListItem"
 import { useState } from "react"
-import ava from '../images/ava.png'
-import barbara from '../images/barbara.png'
-import gregory from '../images/gregory.png'
-import jacob from '../images/jacob.png'
-import janine from '../images/janine.png'
-import mrJ from '../images/mrJ.png'
-import schemmenti from '../images/schemmenti.png'
-import photo from '../images/photoplaceholder.png'
 
 export default ({employee}) => {
 

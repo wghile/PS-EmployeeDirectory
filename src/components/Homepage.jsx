@@ -2,13 +2,13 @@ import EmployeeList from "./EmployeeList"
 import Header from "./Header"
 import Searchbar from "./SearchBar"
 
-import ava from '../images/ava.png'
-import barbara from '../images/barbara.png'
-import gregory from '../images/gregory.png'
-import jacob from '../images/jacob.png'
-import janine from '../images/janine.png'
-import mrJ from '../images/mrJ.png'
-import schemmenti from '../images/schemmenti.png'
+import ava from '/images/ava.png'
+import barbara from '/images/barbara.png'
+import gregory from '/images/gregory.png'
+import jacob from '/images/jacob.png'
+import janine from '/images/janine.png'
+import mrJ from '/images/mrJ.png'
+import schemmenti from '/images/schemmenti.png'
 import { useState } from 'react'
 
 export default ({handleUserClick}) => {
