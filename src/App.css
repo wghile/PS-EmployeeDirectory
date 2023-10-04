@@ -22,11 +22,14 @@
   margin-right: 4px;
   margin-left: 200px;
 
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  grid-template-rows: 55px 50px 1fr;
 }
 .Header{
   /* flex: 1; */
+  grid-row: 1/2;
   border: 2px lightskyblue solid;
   margin: 2px;
   font-size: 25px;
@@ -35,7 +38,8 @@
   text-align: center;
 }
 .SearchBar{
-  flex: 1;
+  /* flex: 1; */
+  grid-row: 2/3;
   border: 2px green solid;
   margin: 2px;
   background-color: rgba(193, 190, 190, 0.12);
@@ -50,7 +54,9 @@
   height: 75%;
 }
 .EL{
-  flex: 15;
+  /* flex: 15; */
+  grid-row: 3/4;
+  overflow: scroll;
   border: 2px purple solid;
   margin: 2px;
 }

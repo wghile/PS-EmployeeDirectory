@@ -7,7 +7,6 @@ Employee Directory application built using React + Vite inspired by Abbott Eleme
 Features I'd like to add:
 
 - Data for employees (i.e. email, office and phone number)
-- More employees
 - Overall design of app
 
 ## Installation Instructions
