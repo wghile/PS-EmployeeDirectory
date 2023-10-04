@@ -9,7 +9,6 @@ Features I'd like to add:
 - Data for employees (i.e. email, office and phone number)
 - More employees
 - Organize employees by alphabetical order
-- Functionality to searchbar so that when user types in name it filters through employee data
 - Overall design of app
 
 ## Installation Instructions

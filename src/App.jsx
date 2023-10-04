@@ -7,8 +7,8 @@ import photo from './images/photoplaceholder.png'
 function App() {
   
   const [currentEmployee, setCurrentEmployee] = useState({
-    name: 'Nothing Here',
-    role: 'Nothing Here',
+    name: 'FirstName LastName',
+    role: 'Job Title',
     img: photo
   })
 
