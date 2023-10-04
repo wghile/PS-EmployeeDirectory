@@ -1,4 +1,3 @@
-import EmployeeListItem from "./EmployeeListItem"
 import { useState } from "react"
 
 export default ({employee}) => {
@@ -36,14 +35,6 @@ export default ({employee}) => {
                             </div>
                         </td>
                     </tr>
-                    {/* <tr>
-                        <td>
-                            Room No.
-                            <div className="employee">
-                                {SMS}
-                            </div>
-                        </td>
-                    </tr> */}
                     <tr>
                         <td>
                             Email

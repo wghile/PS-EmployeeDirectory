@@ -3,8 +3,6 @@ import EmployeeInfo from "./EmployeeInfo"
 
 export default ({employee}) => {
 
-
-
     return (
         <div className="EP">
             <Header title = 'Employee'/>
