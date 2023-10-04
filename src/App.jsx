@@ -7,9 +7,10 @@ import photo from '../public/images/photoplaceholder.png'
 function App() {
   
   const [currentEmployee, setCurrentEmployee] = useState({
-    name: 'First name Last name',
+    name: 'FirstName LastName',
     role: 'Job Title',
-    img: photo
+    img: photo, 
+    email : 'placeholder@abbott.edu', 
   })
 
   function handleUserClick(employeeObject) {

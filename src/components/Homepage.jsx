@@ -24,9 +24,15 @@ export default ({handleUserClick}) => {
         {name: "Gregory Eddie", role: '1st Grade Teacher', img: gregory},
         {name: "Jacob Hill", role: '5th Grade Teacher', img: jacob},
         {name: "Mr. Morton", role: '8th Grade Teacher', img: mrMorton},
-        {name: "Superintendent Collins", role: 'Superintendent', img: superintendent},
+        {name: "Denzel Collins", role: 'Superintendent', img: superintendent},
     ]
    
+    employees.forEach((el) => {
+        let nameSplit = el.name.split(' ')
+        el.email = `${nameSplit[0].charAt(0).toLowerCase()}${nameSplit[1].toLowerCase()}@abbott.edu`
+    })
+
+    console.log(employees)
     employees.sort((a, b) => {
         const nameA = a.name
         const nameB = b.name

@@ -2,13 +2,6 @@
 
 Employee Directory application built using React + Vite inspired by Abbott Elementary TV show.
 
-## Work in Progress
-
-Features I'd like to add:
-
-- Data for employees (i.e. email, office and phone number)
-- Overall design of app
-
 ## Installation Instructions
 
 1. clone repository

@@ -5,12 +5,6 @@ export default ({employee}) => {
 
     const [officeNum, setOfficeNum] = useState('XXX-YYY-ZZZZ')
     const [mobileNum, setMobileNum] = useState('XXX-YYY-ZZZZ')
-    const [SMS, setSMS] = useState('XXX-YYY-ZZZZ')
-    const [email, setEmail] = useState('abcdef@abbott.edu')
-
-    // const [pic, setPic] = useState(photo)
-    // const [name, setName] = useState('Name')
-    // const [role, setRole] = useState('Job Title')
 
     return (
         <div className="EI">
@@ -42,19 +36,19 @@ export default ({employee}) => {
                             </div>
                         </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                         <td>
-                            SMS
+                            Room No.
                             <div className="employee">
                                 {SMS}
                             </div>
                         </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                         <td>
                             Email
                             <div className="employee">
-                                {email}
+                                {employee.email}
                             </div>
                         </td>
                     </tr>

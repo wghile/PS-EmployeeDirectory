@@ -1,7 +1,7 @@
-export default ({img, name, role, handleUserClick}) => {
+export default ({img, name, role, email, handleUserClick}) => {
 
     return (
-        <div onClick={() => {handleUserClick({name: name, role: role, img: img})}} className="ELI">
+        <div onClick={() => {handleUserClick({name: name, role: role, img: img, email: email})}} className="ELI">
             <img src={img}/>
             <ul>
                 <li>
