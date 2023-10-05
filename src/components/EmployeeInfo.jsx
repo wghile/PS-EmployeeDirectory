@@ -21,7 +21,7 @@ export default ({employee}) => {
                     </tr>
                     <tr>
                         <td>
-                            Call Office
+                            Office
                             <div className="employee">
                                 {officeNum}  
                             </div>
@@ -29,7 +29,7 @@ export default ({employee}) => {
                     </tr>
                     <tr>
                         <td>
-                            Call Mobile  
+                            Mobile  
                             <div className="employee">
                                 {mobileNum}
                             </div>
