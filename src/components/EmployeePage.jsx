@@ -5,7 +5,7 @@ export default ({employee}) => {
 
     return (
         <div className="EP">
-            <Header title = 'Employee'/>
+            <Header title = 'Contact'/>
             <EmployeeInfo employee = {employee}/>
         </div>
     )

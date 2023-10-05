@@ -12,11 +12,11 @@ export default ({employee}) => {
                     <tr>
                         <td>
                                 <img src = {employee.img}/>
-                                <text>
+                                <p>
                                   <strong>{employee.name}</strong>
                                   <br />
                                     {employee.role}  
-                                </text>
+                                </p>
                         </td>
                     </tr>
                     <tr>

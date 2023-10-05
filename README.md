@@ -13,6 +13,6 @@ Employee Directory application built using React + Vite inspired by Abbott Eleme
 4. Install: `npm install`
 5. Start server: `npm run dev`
 
-# Resources
+## Resources
 
 -Sorting array alphabetically: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort

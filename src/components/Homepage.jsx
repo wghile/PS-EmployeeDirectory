@@ -16,7 +16,7 @@ import { useState } from 'react'
 export default ({handleUserClick}) => {
 
     const employees = [
-        {name: "Ava Coleman", role: 'Abbott Elementary Principal', img: ava},
+        {name: "Ava Coleman", role: 'Principal', img: ava},
         {name: "Barbara Howard", role: 'Kindergarten Teacher', img: barbara},
         {name: "Melissa Schemmenti", role: '2nd/3rd Grade Teacher', img: schemmenti},
         {name: "Mr. Johnson", role: 'Janitor/Substitute Teacher', img: mrJ},
@@ -49,7 +49,7 @@ export default ({handleUserClick}) => {
 
     return (
         <div className="Homepage">
-            <Header title = 'Employee Directory'/>
+            <Header title = 'Staff Directory'/>
             <Searchbar setDisplay = {setDisplay} employees = {employees}/>
             <EmployeeList employees = {display} handleUserClick = {handleUserClick}/>
         </div>

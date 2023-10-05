@@ -8,10 +8,12 @@
 .App{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
   height: 100vh;
   width: 100vw;
+  padding: 100px 180px;
+  gap: 0px 10px;
 
   background-image: url('/public/images/background.png');
   background-repeat: no-repeat;
@@ -26,8 +28,6 @@
   border-radius: 10px;
   background-color: rgba(250, 250, 210, 0.835);
   height: 95vh;
-  margin-right: 4px;
-  margin-left: 200px;
 
   display: grid;
   grid-template-rows: 50px 50px 1fr;
@@ -66,13 +66,16 @@
   grid-template-columns: 1fr 4fr;
   align-items: center;
 }
+.ELI:hover{
+  cursor: pointer;
+}
 .ELI:first-child{
   border-top: 2px grey double;
 }
 .ELI > img{
   grid-column: 1/2;
   border-radius: 50px;
-  border: 1px orange solid;
+  border: 1px orange inset;
   width: 70%;
   height: 85%;
 }
@@ -89,49 +92,57 @@
 /* Employee Page */
 .EP{
   flex: 1;
-  border: 2px brown solid;
+  border: 2px brown inset;
   height: 95vh;
-  margin-left: 4px;
-  margin-right: 200px;
+  border-radius: 10px;
+  background-color: rgba(250, 250, 210, 0.835);
+
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  justify-items: center;
+  gap: 20px 0px;
 }
 .EI > table{
+  grid-row: 2/3;
+
+  width: 32vw;
   border: 1px solid grey;
   border-radius: 4px;
   border-collapse: collapse;
-  position: relative;
-    top: 20px;
-    left: 40px;
-  width: 85%;
 }
 .EI > table > tbody > tr > td{
   border: 1px solid grey;
   padding: 20px;
 }
 .EI > table > tbody > tr:first-child > td{
-  padding: 100px;
+  padding: 50px 15px 50px 15px;
+  border: transparent;
+
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
-  border: transparent;
+  gap: 0px 20px;
 }
-img{
+.EI > table > tbody > tr > td > img{
   grid-column: 1/2;
-  border-radius: 50%;
-  border: 2px solid orange;
+
+  border-radius: 100px;
+  border: 2px inset orange;
   width: 120px;
   height: 120px;
-  position: absolute;
-    left: 10px;
 }
-text{
+.EI > table > tbody > tr > td > p{
   grid-column: 2/3;
+
   font-size: 17px;
-  line-height: 0.25in;
-  position: absolute;
-    left: 140px;
+  line-height: 0.3in;
 }
-.EI > .employee {
+.EI > table > tbody > tr > td > p > strong{
+  font-size: 20px;
+}
+.EI > table > tbody > tr > td > .employee {
   color: grey;
+  padding-top: 10px;
 }
 
 
