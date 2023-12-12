@@ -50,6 +50,8 @@
   margin-left: 5px;
   width: 98%;
   height: 75%;
+  padding: 0px 20px;
+  font-size: 15px;
 }
 .EL{
   grid-row: 3/4;
